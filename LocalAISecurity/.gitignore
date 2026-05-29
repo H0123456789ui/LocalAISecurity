@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.spec
+.eggs/
+*.egg
+.Python
+venv/
+.venv/
+env/
+*.whl
+
+# C++ / CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+!CMakeLists.txt
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+
+# IDE / Editor
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.user
+
+# PyTorch models (large binary files)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+!models/*.pt
+
+# Environment
+.env
+.env.local
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Package managers
+node_modules/
+
+# Test cache
+.pytest_cache/
+.tox/
+
+# Token counter / tools cache
+.tokenmiser/
+
+# Claude
+.claude/
+CLAUDE.md
+plans/
+
+# Generated docs
+CODEBASE_INDEX.md
